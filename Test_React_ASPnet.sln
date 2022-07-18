@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_React_ASPnet", "Test_React_ASPnet\Test_React_ASPnet.csproj", "{AE2AB1DC-7F7D-4FA6-A362-87ABD584858E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_React_ASPnet.DAL", "Test_React_ASPnet.DAL\Test_React_ASPnet.DAL.csproj", "{245A6065-E915-4BF1-B158-7063E8855E7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{E12093C5-6F40-41AF-BD48-90CBCC5E6ECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0A9195C9-E52D-418D-9E54-B2606C7775EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{6D5E51EC-819E-49A3-A4AF-E75ABB357CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_React_ASPnet.Domain", "Test_React_ASPnet.Domain\Test_React_ASPnet.Domain.csproj", "{BF6F9FAA-C097-4FAE-986F-06520919C340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_React_ASPnet.Service", "Test_React_ASPnet.Service\Test_React_ASPnet.Service.csproj", "{35C7C51A-911B-475F-970D-380A1481F3A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2AB1DC-7F7D-4FA6-A362-87ABD584858E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2AB1DC-7F7D-4FA6-A362-87ABD584858E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2AB1DC-7F7D-4FA6-A362-87ABD584858E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2AB1DC-7F7D-4FA6-A362-87ABD584858E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245A6065-E915-4BF1-B158-7063E8855E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A6065-E915-4BF1-B158-7063E8855E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A6065-E915-4BF1-B158-7063E8855E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A6065-E915-4BF1-B158-7063E8855E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6F9FAA-C097-4FAE-986F-06520919C340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6F9FAA-C097-4FAE-986F-06520919C340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6F9FAA-C097-4FAE-986F-06520919C340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6F9FAA-C097-4FAE-986F-06520919C340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C7C51A-911B-475F-970D-380A1481F3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C7C51A-911B-475F-970D-380A1481F3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C7C51A-911B-475F-970D-380A1481F3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C7C51A-911B-475F-970D-380A1481F3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{245A6065-E915-4BF1-B158-7063E8855E7A} = {E12093C5-6F40-41AF-BD48-90CBCC5E6ECF}
+		{BF6F9FAA-C097-4FAE-986F-06520919C340} = {0A9195C9-E52D-418D-9E54-B2606C7775EF}
+		{35C7C51A-911B-475F-970D-380A1481F3A0} = {6D5E51EC-819E-49A3-A4AF-E75ABB357CCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6128C5E6-D991-49FB-ACFF-912EC749F527}
+	EndGlobalSection
+EndGlobal
